@@ -119,7 +119,7 @@ public class BinarySearchTreeIterative{
      public int findMaxIter(Node n){
         Node current = n;
         while(current.rightchild !=null){
-          current = current->rightchild;
+          current = current.rightchild;
           }
           return(current.data);
          }
